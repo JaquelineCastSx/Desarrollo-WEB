@@ -1,0 +1,50 @@
+.calculator {
+  background-color: #333;
+  color: #fff;
+  width: 400px;
+  height: 850px;
+  margin: 100px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.display {
+  background-color: #ddd;
+  color: #333;
+  height: 100px;
+  line-height: 100px;
+  text-align: right;
+  padding: 0 20px;
+  font-size: 48px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.number,
+.operator {
+  width: 100px;
+  height: 100px;
+  border: none;
+  border-radius: 10px;
+  font-size: 24px;
+  background-color: #fff;
+  color: #333;
+  margin: 10px;
+  float: left;
+  cursor: pointer;
+}
+
+.operator {
+  background-color: #ddd;
+}
+
+.operator[value="="] {
+  background-color: #f00;
+  color: #fff;
+}
