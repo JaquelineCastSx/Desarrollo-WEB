@@ -1,0 +1,28 @@
+section{
+    background-color: rgb(178, 204, 232);
+    margin: 20px;
+    padding: 20px;
+}
+#inform{
+    background-color: rgb(203, 178, 232);
+}
+#contact{
+    background-color: rgb(232, 178, 210);
+}
+.browsers{
+    margin: 0;
+    padding: 5px;
+    background-color: rgb(149, 130, 158);
+}
+.browser{
+    background: #a5bdfd;
+}
+img{
+    width: 200px;
+
+}
+aside{
+    position: absolute;
+    right: 2px;
+    background-color: yellowgreen;
+}
