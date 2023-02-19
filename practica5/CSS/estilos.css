@@ -1,0 +1,14 @@
+body{
+    font-family: 'Catamaran', sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+#agregar{
+    width: 200px;
+    font-size: 18px;
+}
+#titulo{
+    text-decoration: none;
+    color: black;
+}
