@@ -58,6 +58,35 @@
 
         lista.innerHTML = html;
 
+        let arreglo = [1,2,3];
+        arreglo[6] = 9;
+        console.log(arreglo[5]);
+        console.log(arreglo);
+
+        const frutas = [ "Banana", "Orange","Apple","Mango"];
+        frutas.sort();
+console.log(frutas);
+
+        var apellido ="Pérez";
+
+        let muestraApellido = () => {
+            let rfc = "RPX34725";
+            console.log("Dentro de la función: " + apellido);
+        }
+
+        console.log("Fuera: " + apellido);
+
+        muestraApellido();
+
+        let pais = "MX";
+
+        //Función anónima
+        (
+            () => {
+                console.log(pais);
+            }
+        )();
+
 
     </script>
 </body>
