@@ -1,4 +1,4 @@
-function searchAlbum() {
+const searchAlbum = ()=> {
     let nombreArtista = document.getElementById('nombreArtista');
     let nombreAlbum = document.getElementById('nombreAlbum');
     let fotoArtista = document.getElementById('fotoArtista');
@@ -8,10 +8,11 @@ function searchAlbum() {
     
     const options = {
         method: 'GET',
-        headers: {
-            'X-RapidAPI-Key': '82c331f6b9msh56dfd4f13c1594cp101eefjsn6d2154f30e97',
-            'X-RapidAPI-Host': 'spotify23.p.rapidapi.com'
-        }
+	headers: {
+		'content-type': 'application/octet-stream',
+		'X-RapidAPI-Key': 'af4913a6eemshad72e92cf605f20p12cefdjsn8ecc0dc062fa',
+		'X-RapidAPI-Host': 'spotify23.p.rapidapi.com'
+	}
     };
     
     
