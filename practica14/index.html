@@ -7,7 +7,11 @@
     <title>Vue js</title>
 </head>
 <body>
-    <div id="miApp"></div>
+    <div id="miApp">
+        <p>Ingresa una edad:
+        <input type="number" v-model="edad"></p>
+        <p v-if="edad>=18">Es mayor de edad.</p>
+    </div>
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <script src="index.js"></script>
 </body>

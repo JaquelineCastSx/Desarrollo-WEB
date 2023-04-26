@@ -7,7 +7,13 @@
     <title>Vue js</title>
 </head>
 <body>
-    <div id="miApp"></div>
+    <div id="miApp">
+        
+        <p> {{nombre}} </p>
+        <button v-on:click="cambiarNombre">Cambiar texto</button>
+        <br> <br>
+        <button v-on:click="cambiarMayus">A mayúsculas</button>
+    </div>
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <script src="index.js"></script>
 </body>
