@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vue js</title>
+</head>
+<body>
+    <div id="miApp">
+    <form action="#">
+        <fieldset>
+            <label for="">Ingrese un valor entre 1 y 100</label>
+            <input type="number" v-model="numero">
+            <p v-if="numero <= 9">Tiene un digito</p>
+            <p v-else-if="numero >= 10">Tiene dos Digitos</p>
+            <p v-else>Tiene tres digitos o mas</p>
+
+        </fieldset>
+
+        
+    </form>
+    </div>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
