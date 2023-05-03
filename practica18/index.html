@@ -13,18 +13,11 @@
 </style>
 <body>
     <div id="miApp">
-    <form action="#">
-        <fieldset>
-            <label for="">Ingrese un valor entre 1 y 100</label>
-            <input type="number" v-model="numero">
-            <p v-if="numero <= 9">Tiene un digito</p>
-            <p v-else-if="numero >= 10">Tiene dos Digitos</p>
-            <p v-else>Tiene tres digitos o mas</p>
-
-        </fieldset>
-
-        
-    </form>
+        <ul v-for="frase in frases" :key="frase.id">
+            <li>
+                {{frase.id}} {{frase.texto}}
+            </li>
+        </ul>
     </div>
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <script src="index.js"></script>
